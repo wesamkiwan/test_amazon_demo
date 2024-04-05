@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f279bfc-4bfb-48a4-b08a-55772d1d6d6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wesam/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageElements/AmazonHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageElements/ResultsPage1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestingPages/TestResultsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestingPages/TestSearch.java" afterDir="false" />
+    <list default="true" id="1f279bfc-4bfb-48a4-b08a-55772d1d6d6e" name="Changes" comment="selenium java test amazon demo">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProductPage2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestProductPage2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageElements/AmazonHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageElements/ResultsPage1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ResultsPage1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestingPages/TestResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestResultsPage1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestingPages/TestSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,26 +42,85 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.TestProductPage2.addItemToBasket.executor": "Run",
+    "TestNG.TestProductPage2.checkBasketNum.executor": "Run",
+    "TestNG.TestProductPage2.checkProductTitle.executor": "Run",
     "TestNG.TestResultsPage.executor": "Run",
     "TestNG.TestSearch.checkProductNameTop.executor": "Run",
     "TestNG.TestSearch.executor": "Run",
     "TestNG.TestSearch.searchForProduct.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/wesam/Desktop/test_project/test_amazon_demo"
+    "last_opened_file_path": "/home/wesam/Desktop/test_project/test_amazon_demo",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Python"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TestResultsPage">
-    <configuration name="TestResultsPage" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestProductPage2.checkProductTitle">
+    <configuration name="TestProductPage2.addItemToBasket" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test_amazon_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestingPages.*" />
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestProductPage2" />
+      <option name="METHOD_NAME" value="addItemToBasket" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestProductPage2.checkBasketNum" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test_amazon_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestProductPage2" />
+      <option name="METHOD_NAME" value="checkBasketNum" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestProductPage2.checkProductTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test_amazon_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestProductPage2" />
+      <option name="METHOD_NAME" value="checkProductTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestResultsPage1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test_amazon_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestingPages" />
-      <option name="MAIN_CLASS_NAME" value="TestingPages.TestResultsPage" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestResultsPage1" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -76,31 +132,13 @@
       <module name="test_amazon_demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestingPages.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestingPages" />
-      <option name="MAIN_CLASS_NAME" value="TestingPages.TestSearch" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestSearch" />
       <option name="METHOD_NAME" value="checkProductNameTop" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSearch.searchForProduct" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="test_amazon_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestingPages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestingPages" />
-      <option name="MAIN_CLASS_NAME" value="TestingPages.TestSearch" />
-      <option name="METHOD_NAME" value="searchForProduct" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -110,18 +148,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestResultsPage" />
+        <item itemvalue="TestNG.TestProductPage2.checkProductTitle" />
+        <item itemvalue="TestNG.TestProductPage2.addItemToBasket" />
+        <item itemvalue="TestNG.TestProductPage2.checkBasketNum" />
+        <item itemvalue="TestNG.TestResultsPage1" />
         <item itemvalue="TestNG.TestSearch.checkProductNameTop" />
-        <item itemvalue="TestNG.TestSearch.searchForProduct" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-78a6f59c" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -132,6 +165,42 @@
       <option name="presentableId" value="Default" />
       <updated>1712056328008</updated>
     </task>
+    <task id="LOCAL-00001" summary="selenium java test amazon demo">
+      <option name="closed" value="true" />
+      <created>1712131947703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712131947703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="selenium java test amazon demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium java test amazon demo" />
   </component>
 </project>

@@ -1,14 +1,13 @@
-package TestingPages;
+package tests;
 
-import PageElements.ResultsPage1;
+import pages.ResultsPage1;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TestResultsPage {
+public class TestResultsPage1 {
     WebDriver driver;
 
     @BeforeTest
@@ -26,9 +25,17 @@ public class TestResultsPage {
         Assert.assertTrue(page2.getProductNameTop().contains("bluetooth adapter auto"));
     }
 
-    @AfterTest
-    public void termination(){
-        driver.quit();
+    @Test
+    public void chooseMyProduct(){
+        ResultsPage1 page2 = new ResultsPage1(driver);
+        page2.chooseProduct();
     }
+
+
+
+//    @AfterTest
+//    public void termination(){
+//        driver.quit();
+//    }
 
 }
