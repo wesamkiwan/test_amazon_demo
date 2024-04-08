@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f279bfc-4bfb-48a4-b08a-55772d1d6d6e" name="Changes" comment="selenium java test amazon demo" />
+    <list default="true" id="1f279bfc-4bfb-48a4-b08a-55772d1d6d6e" name="Changes" comment="selenium java test amazon demo">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonLogInPage3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BuyProductPage4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestAmazonLogInPage3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestBuyProductPage4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AmazonHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestProductPage2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestProductPage2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestResultsPage1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestResultsPage1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestAmazonSearch.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,26 +39,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.TestProductPage2.addItemToBasket.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestProductPage2.checkBasketNum.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestProductPage2.checkProductTitle.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestResultsPage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSearch.checkProductNameTop.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSearch.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestSearch.searchForProduct.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/wesam/Desktop/test_project/test_amazon_demo&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Python&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.TestAmazonLogInPage3.enterEmail.executor": "Run",
+    "TestNG.TestAmazonLogInPage3.executor": "Run",
+    "TestNG.TestAmazonSearch.executor": "Run",
+    "TestNG.TestBuyProductPage4.executor": "Run",
+    "TestNG.TestProductPage2.addItemToBasket.executor": "Run",
+    "TestNG.TestProductPage2.checkBasketNum.executor": "Run",
+    "TestNG.TestProductPage2.checkProductTitle.executor": "Run",
+    "TestNG.TestProductPage2.executor": "Run",
+    "TestNG.TestResultsPage.executor": "Run",
+    "TestNG.TestResultsPage1.executor": "Run",
+    "TestNG.TestSearch.checkProductNameTop.executor": "Run",
+    "TestNG.TestSearch.executor": "Run",
+    "TestNG.TestSearch.searchForProduct.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/wesam/Desktop/test_project/test_amazon_demo",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Python"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.TestProductPage2.checkProductTitle">
-    <configuration name="TestProductPage2.addItemToBasket" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="TestNG.TestProductPage2">
+    <configuration name="TestAmazonLogInPage3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test_amazon_demo" />
       <extension name="coverage">
         <pattern>
@@ -57,16 +73,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestProductPage2" />
-      <option name="METHOD_NAME" value="addItemToBasket" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestAmazonLogInPage3" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProductPage2.checkBasketNum" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAmazonSearch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test_amazon_demo" />
       <extension name="coverage">
         <pattern>
@@ -75,16 +90,32 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestProductPage2" />
-      <option name="METHOD_NAME" value="checkBasketNum" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestAmazonSearch" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProductPage2.checkProductTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBuyProductPage4" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test_amazon_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestBuyProductPage4" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestProductPage2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="test_amazon_demo" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +125,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TestProductPage2" />
-      <option name="METHOD_NAME" value="checkProductTitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -110,7 +140,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="TestingPages" />
+      <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TestResultsPage1" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
@@ -119,31 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSearch.checkProductNameTop" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="test_amazon_demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestingPages" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestSearch" />
-      <option name="METHOD_NAME" value="checkProductNameTop" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestProductPage2.checkProductTitle" />
-        <item itemvalue="TestNG.TestProductPage2.addItemToBasket" />
-        <item itemvalue="TestNG.TestProductPage2.checkBasketNum" />
+        <item itemvalue="TestNG.TestProductPage2" />
         <item itemvalue="TestNG.TestResultsPage1" />
-        <item itemvalue="TestNG.TestSearch.checkProductNameTop" />
+        <item itemvalue="TestNG.TestAmazonSearch" />
+        <item itemvalue="TestNG.TestAmazonLogInPage3" />
+        <item itemvalue="TestNG.TestBuyProductPage4" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712131947703</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="selenium java test amazon demo">
+      <option name="closed" value="true" />
+      <created>1712303826652</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712303826652</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

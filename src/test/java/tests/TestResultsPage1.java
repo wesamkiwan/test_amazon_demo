@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.annotations.AfterTest;
 import pages.ResultsPage1;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,14 +19,14 @@ public class TestResultsPage1 {
         driver.manage().window().maximize();
     }
 
-    @Test
+    @Test (priority = 1)
     public void checkProductNameTop(){
         ResultsPage1 page2 = new ResultsPage1(driver);
         String expectedText = "bluetooth adapter auto";
         Assert.assertTrue(page2.getProductNameTop().contains("bluetooth adapter auto"));
     }
 
-    @Test
+    @Test (priority = 2)
     public void chooseMyProduct(){
         ResultsPage1 page2 = new ResultsPage1(driver);
         page2.chooseProduct();
@@ -33,9 +34,9 @@ public class TestResultsPage1 {
 
 
 
-//    @AfterTest
-//    public void termination(){
-//        driver.quit();
-//    }
+    @AfterTest
+    public void termination(){
+        driver.quit();
+    }
 
 }

@@ -5,11 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class AmazonHomePage {
+public class AmazonSearch {
     WebDriver driver;
 
     //constructor
-    public  AmazonHomePage(WebDriver driver){
+    public AmazonSearch(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
